@@ -1,156 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Harry Mapodile is a founding engineer building financial infrastructure and AI systems.">
+    <meta name="theme-color" content="#07110e">
+    <title>Harry Mapodile | Founding Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="Harry Mapodile, home">HM<span>.</span></a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span>
+        </button>
+        <nav class="nav" aria-label="Main navigation">
+            <a href="#work">Work</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="Harry-Mapodile-Resume.pdf" target="_blank">Resume</a>
+        </nav>
+    </header>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>HarryM</title>
-            <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-            <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-            integrity="sha256=46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
-            <!-- Update these with your own fonts -->
-            <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans
-            +Pro:300,900&display=swap" rel="stylesheet">
-
-            <link rel="stylesheet" href="css/style.css">
-
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                <img src="image location" alt="">
+    <main id="top">
+        <section class="hero">
+            <div class="hero__glow" aria-hidden="true"></div>
+            <div class="hero__copy">
+                <p class="eyebrow"><span class="status-dot"></span> Founding engineer · Berkeley, CA</p>
+                <h1>I build ambitious systems from <em>zero to real.</em></h1>
+                <p class="hero__lede">I’m Harry Mapodile, a founding engineer working across financial infrastructure, AI research, and products that move quickly from idea to impact.</p>
+                <div class="hero__actions">
+                    <a class="button button--primary" href="mailto:Harrymapodile@gmail.com">Start a conversation <span>↗</span></a>
+                    <a class="button button--ghost" href="Harry-Mapodile-Resume.pdf" target="_blank">View resume</a>
+                </div>
             </div>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Interests</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
-                </ul>
-            </nav>
-
-        </header>
-      
-        <!--Introduction-->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Harry Mapodile</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">Sophomore CS student</p>
-            <img src="img/HarryM.jpg" alt="a picture of Harry Mapodile smiling" class="intro__img">
-        </section>
-
-
-        <!--My Services-->
-        <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">What I do</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Programming</h3>
-                    <p>The languages I know the most are C++ and Python, my introduction to  C++ was through a data structures 
-                        class which came to great use for competitive programming. And for Python, it was an introduction to 
-                        programming course featuring Python where I learned the fundamentals of modern computing from the transistors 
-                        and logic gates to the frontend software.</p>
-                </div> <!-- / service-->
-
-                <div class="service">
-                    <h3>Hackathons</h3>
-                    <p>In my spare time, I participate in hackathons, I find it beneficial for 
-                        networking and acquiring new skills and tech trends from the people I 
-                        meet at the events. My projects span from Augmented Reality tools to cultivate better learning enviroments 
-                        to building on Apple's screen time framework to embed more privacy and build healthy habits through game theory. See my projects below.</p>
-                </div> <!-- / service-->
-
-                <div class="service">
-                    <h3>3D Printing</h3>
-                    <p>I have a vast collection of 3D prints, it's a tool I frequently use for 
-                        prototypes or fulfilling printing requests for my engineering club at 
-                        Berkeley City College. It allows you to materialize your ideas into 
-                        something tangible. Experimenting with different materials to find that 
-                        sweet spot to make a drone both light and rigid is always satisfying.</p>
-                </div> <!-- / service-->
-            
+            <div class="hero__visual">
+                <div class="portrait-frame">
+                    <img src="img/HarryMStanding3.jpg" alt="Harry Mapodile">
+                    <div class="portrait-label">
+                        <span>Currently</span>
+                        <strong>Building at Dwilar</strong>
+                    </div>
+                </div>
             </div>
-
-            <a href="#projects" class="btn">Projects</a>
-        </section>
-
-        <!--About me-->
-        <section class="about-me" id="about">
-            <h2 class="section__title section__title--about">Who I am</h2>
-            <p class="section__subtitle section__subtitle--about">I'm a sophomore at Berkeley City College and a coding enthusiast with experience 
-                in Qiskit and Machine Learning.</p>
-
-            <div class="about-me__body">
-                <p>I would be happy to discuss any project idea at the intersection of the above areas; feel free to reach out if you are interested!</p>
-                <p>If you'd like to 3D print something contact me at the email below.</p>
-            </div>
-
-            <img src="img\bobbafet2.jpg" alt="3D printed Boba Fett" class="about-me__img">
-        </section>
-
-        <!-- My Projects-->
-        <section class="my-projects" id="projects">
-            <h2 class="section__title section__title--projects">Projects</h2>
-            <p class="section__subtitle section__subtitle--projects">A selection of my projects</p>
-
-            <div class="portfolio">
-                <!--Portfolio item 01-->
-                <a href="Virtual-Classroom.html" class="portfolio__item">
-                    <img src="img/VirtualClass.jpg" alt="Virtual Classroom" class="portfolio__img">
-                </a>
-
-                <!--Portfolio item 02-->
-                <a href="Teiko.html" class="portfolio__item">
-                    <img src="img/Teiko.jpeg" alt="Teiko" class="portfolio__img">
-                </a>
-
-                <!--Portfolio item 03-->
-                <a href="#" class="portfolio__item">
-                   <img src="#" alt="" class="portfolio__img">
-                </a>
-
-                <!--Portfolio item 04-->
-                <a href="#" class="portfolio__item">
-                    <img src="#" alt="" class="portfolio__img">
-                </a>
+            <div class="hero__metrics" aria-label="Career highlights">
+                <div><strong>$1M</strong><span>ARR platform scale</span></div>
+                <div><strong>50+</strong><span>countries covered</span></div>
+                <div><strong>13B</strong><span>parameter models studied</span></div>
             </div>
         </section>
 
+        <section class="section" id="work">
+            <div class="section-heading">
+                <p class="eyebrow">01 / Experience</p>
+                <h2>Building at the edge of what’s possible.</h2>
+            </div>
+            <div class="timeline">
+                <article class="timeline__item">
+                    <div class="timeline__meta">
+                        <span>2024 — Present</span>
+                        <span>Palo Alto, CA</span>
+                    </div>
+                    <div class="timeline__content">
+                        <p class="role">Founding Engineer</p>
+                        <h3>Dwilar, Inc.</h3>
+                        <p>First engineer defining the technical roadmap and building the core infrastructure for a global credit platform.</p>
+                        <ul>
+                            <li>Scaled the platform from zero to $1M ARR</li>
+                            <li>Expanded credit coverage to more than 50 countries</li>
+                            <li>Led KYC and credit bureau data integrations enabling real loan issuance</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="timeline__item">
+                    <div class="timeline__meta">
+                        <span>2023 — 2024</span>
+                        <span>San Francisco, CA</span>
+                    </div>
+                    <div class="timeline__content">
+                        <p class="role">Research Engineer</p>
+                        <h3>Stealth AI Startup</h3>
+                        <p>Investigated how large language models represent behavior, identify concepts, and fail.</p>
+                        <ul>
+                            <li>Studied activation patterns across 5+ models up to 13B parameters</li>
+                            <li>Designed and ran more than 50 probing experiments</li>
+                            <li>Built visualization tools that reduced analysis time by 40%</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="timeline__item">
+                    <div class="timeline__meta">
+                        <span>2019 — 2021</span>
+                        <span>Berkeley, CA</span>
+                    </div>
+                    <div class="timeline__content">
+                        <p class="role">Teaching Assistant</p>
+                        <h3>Berkeley City College</h3>
+                        <p>Helped students build confidence in calculus, physics, data structures, and algorithms through office hours, reviews, and original study materials.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
 
-        <!-- Footer-->
-        <footer class="footer">
-            <a href="mailto:Harrymapodile@gmail.com" class="footer__link">Harrymapodile@gmail.com</a>
-            <ul class="social-list">
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://twitter.com/harrymapodile" target="_blank">
-                        <i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://linkedin.com/in/harry-mapodile" target="_blank">
-                        <i class="fab fa-linkedin"></i></a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com/harryxo" target="_blank">
-                        <i class="fab fa-github"></i></a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://medium.com/@harrymapodile" target="_blank">
-                        <i class="fa-brands fa-medium"></i></a>
-                    
-                </li>
-            </ul>
-        </footer>
+        <section class="section projects-section" id="projects">
+            <div class="section-heading section-heading--row">
+                <div>
+                    <p class="eyebrow">02 / Selected work</p>
+                    <h2>Experiments with a reason to exist.</h2>
+                </div>
+                <a class="text-link" href="https://github.com/harryxo" target="_blank" rel="noreferrer">All GitHub projects ↗</a>
+            </div>
+            <div class="project-grid">
+                <a class="project-card project-card--featured" href="https://geoguesserbench.vercel.app" target="_blank" rel="noreferrer">
+                    <div class="project-card__top">
+                        <span class="project-number">01</span>
+                        <span class="project-arrow">↗</span>
+                    </div>
+                    <div>
+                        <p class="project-type">AI Benchmark · TypeScript</p>
+                        <h3>GeoGuesser AI Benchmark</h3>
+                        <p>Benchmarking multimodal models on location reasoning, with an arena for comparing model predictions from real-world imagery.</p>
+                        <div class="tag-list"><span>Next.js</span><span>Vertex AI</span><span>OpenRouter</span></div>
+                    </div>
+                </a>
+                <article class="project-card">
+                    <div class="project-card__top">
+                        <span class="project-number">02</span>
+                    </div>
+                    <div>
+                        <p class="project-type">Augmented Reality</p>
+                        <h3>Virtual Classroom</h3>
+                        <p>An AR learning environment designed to make remote education feel more immediate and collaborative.</p>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-card__top">
+                        <span class="project-number">03</span>
+                    </div>
+                    <div>
+                        <p class="project-type">Digital Wellbeing</p>
+                        <h3>Teiko</h3>
+                        <p>A hackathon project using game theory and Apple’s Screen Time framework to encourage healthier habits.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
 
+        <section class="section about-section" id="about">
+            <div class="about-grid">
+                <div>
+                    <p class="eyebrow">03 / About</p>
+                    <h2>Engineer, researcher, and founder-minded builder.</h2>
+                </div>
+                <div class="about-copy">
+                    <p>I’m most at home in the early days of hard problems: turning ambiguity into a roadmap, making the first version real, and building the infrastructure that lets a team move faster.</p>
+                    <p>My background spans electrical engineering and computer science, mechanistic interpretability, fintech, and startup acceleration programs across Berkeley, Palo Alto, Austin, and beyond.</p>
+                </div>
+            </div>
+            <div class="credentials">
+                <article>
+                    <span>2025 — Present</span>
+                    <h3>AlchemistX</h3>
+                    <p>B2B Global Startup Acceleration Program</p>
+                </article>
+                <article>
+                    <span>2025 — Present</span>
+                    <h3>Q-Branch</h3>
+                    <p>Selected as 1 of 9 founders for U.S. market entry</p>
+                </article>
+                <article>
+                    <span>2024 — 2025</span>
+                    <h3>Berkeley SkyDeck</h3>
+                    <p>Batch 19 IPP · top 14 of 100 companies</p>
+                </article>
+                <article>
+                    <span>2019 — 2023</span>
+                    <h3>Berkeley City College</h3>
+                    <p>Electrical Engineering & Computer Science</p>
+                </article>
+            </div>
+            <div class="skills">
+                <p class="eyebrow">Technical toolkit</p>
+                <div class="skill-list">
+                    <span>Python</span><span>C++</span><span>SQL</span><span>JavaScript</span><span>PyTorch</span><span>TensorFlow</span><span>Qiskit</span><span>Solidity</span>
+                </div>
+            </div>
+        </section>
 
-        <script src="js/index.js"></script>
+        <section class="contact-section">
+            <p class="eyebrow">04 / Contact</p>
+            <h2>Have a hard problem worth building?</h2>
+            <a href="mailto:Harrymapodile@gmail.com">Harrymapodile@gmail.com <span>↗</span></a>
+        </section>
+    </main>
 
-    </body>
+    <footer>
+        <span>© <span id="year"></span> Harry Mapodile</span>
+        <div>
+            <a href="https://github.com/harryxo" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://linkedin.com/in/harry-mapodile" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="Harry-Mapodile-Resume.pdf" target="_blank">Resume</a>
+        </div>
+    </footer>
 
+    <script src="js/index.js"></script>
+</body>
 </html>
